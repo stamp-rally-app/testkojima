@@ -195,6 +195,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = XPE9E92PHR;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					C319DB291DEB093A00305877 = {
 						CreatedOnToolsVersion = 8.1;
@@ -512,6 +517,7 @@
 				C319DB401DEB093A00305877 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C319DB411DEB093A00305877 /* Build configuration list for PBXNativeTarget "slack_push_testTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +526,7 @@
 				C319DB431DEB093A00305877 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C319DB441DEB093A00305877 /* Build configuration list for PBXNativeTarget "slack_push_testUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +535,7 @@
 				C319DB461DEB093A00305877 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
